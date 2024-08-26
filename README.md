@@ -1,0 +1,6 @@
+The Infrared thermographs (IRTs) will be utilized for measuring elevated body temperature (EBT) which will be useful during the outbreak of infectious diseases. 
+The Oral Temperature Prediction will be done based on the give features.
+The raw data taken from the clinical study which are mainly thousands of thermal and visible images captured with two evaluated IRTs [4] and a webcam together with oral temperature data measured with an oral thermometer was the source of the dataset.  Based on these raw data, temperatures at different facial locations for each subject were extracted through a free-form deformation approach for registration of visible and infrared facial images.
+The dataset contains 33 features and 1020 instances. The type of the data is Real and Categorical arranged in Tabular format.The Target variables are ‘aveoralF’ and ‘aveoralM’.
+Overall, 95% of subjects were under 30 years of age and about half were in the 18–21 range. Therefore, the data are not representative of the age of the overall population.
+Infrared thermographs (IRTs) have been utilized for measuring elevated body temperature (EBT) during infectious disease outbreaks such as severe acute respiratory syndrome, Ebola virus disease, and coronavirus disease 2019.
