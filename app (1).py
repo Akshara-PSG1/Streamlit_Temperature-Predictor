@@ -134,12 +134,6 @@ import joblib
 scaler = joblib.load('scaler.pkl')
 
 
-!wget -q -O - ipv4.icanhazip.com
-
-
-
-!streamlit run app.py & npx localtunnel --port 8501
-
 import streamlit as st
 import pandas as pd
 import tensorflow as tf
