@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
-import subprocess
-import sys
 import tensorflow as tf
 
 from tensorflow.keras.models import load_model
