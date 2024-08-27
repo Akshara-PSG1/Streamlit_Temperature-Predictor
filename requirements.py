@@ -2,7 +2,7 @@ pandas
 numpy
 matplotlib
 seaborn
-tensorflow
+tensorflow==2.17.0
 keras
 streamlit
 joblib
