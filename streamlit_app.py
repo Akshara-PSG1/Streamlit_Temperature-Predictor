@@ -1,19 +1,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 import subprocess
 import sys
 import tensorflow as tf
-try:
-    import tensorflow as tf
-    st.success("TensorFlow is installed and imported successfully.")
-except ModuleNotFoundError:
-    st.warning("TensorFlow is not installed. Installing TensorFlow...")
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "tensorflow"])
-    import tensorflow as tf
-    st.success("TensorFlow was successfully installed.")
 
 from tensorflow.keras.models import load_model
 
