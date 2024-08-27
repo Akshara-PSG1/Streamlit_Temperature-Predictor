@@ -39,7 +39,7 @@ import joblib
 scaler = joblib.load('scaler.pkl')
 
 st.title("Infrared Thermography\nOral Temperature Prediction")
-st.image('https://github.com/Akshara-PSG1/Streamlit_Temperature-Predictor/blob/main/infrared.png')
+st.image('https://github.com/Akshara-PSG1/Streamlit_Temperature-Predictor/blob/main/infrared.png?raw=true')
 user_input = get_user_input()
 
 if st.button("Predict Oral Temperature"):
