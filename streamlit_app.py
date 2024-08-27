@@ -1,12 +1,11 @@
 import streamlit as st
 import pandas as pd
-import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 import subprocess
 import sys
-
+import tensorflow as tf
 try:
     import tensorflow as tf
     st.success("TensorFlow is installed and imported successfully.")
