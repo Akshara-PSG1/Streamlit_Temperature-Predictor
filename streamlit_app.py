@@ -38,7 +38,7 @@ def get_user_input():
 import joblib
 scaler = joblib.load('scaler.pkl')
 
-st.title("Infrared Thermography\nOral Temperature Prediction")
+st.title("Oral Temperature Prediction\nInfrared Thermography")
 st.image('https://github.com/Akshara-PSG1/Streamlit_Temperature-Predictor/blob/main/infrared.png?raw=true')
 user_input = get_user_input()
 
