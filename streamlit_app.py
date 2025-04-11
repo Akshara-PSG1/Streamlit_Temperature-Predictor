@@ -45,4 +45,4 @@ user_input = get_user_input()
 if st.button("Predict Oral Temperature"):
     user_input_scaled = scaler.transform(user_input)
     pred = model.predict(user_input_scaled)
-    st.write(f"Predicted Oral Temperature in fast mode is: {pred[0][0]} Degree Celsius")
+    st.write(f"The Predicted Oral Temperature in fast mode is: {pred[0][0]} Degree Celsius")
